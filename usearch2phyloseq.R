@@ -8,7 +8,7 @@ args <- commandArgs(trailingOnly=TRUE)
 
 if (length(args)!=2) {
   stop("Two argument must be supplied!!!", call.=FALSE)
-} else if (length(args)==1) {
+} else {
   grpbase <- args[2]
   sample_file <- args[1]
 }
